@@ -1,0 +1,9 @@
+DFTW calculation with N = 10000 
+Running with 1 threads 
+    Average execution time 16.616759 ms , std = 0.001816 ms 
+Running with 32 threads 
+    Average execution time 0.529916 ms , std = 0.000695 ms 
+Running with 64 threads 
+    Average execution time 0.285240 ms , std = 0.000541 ms 
+Running with 128 threads 
+    Average execution time 0.184946 ms , std = 0.006045 ms 
