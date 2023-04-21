@@ -86,7 +86,7 @@ int main(int argc, char *argv[]) {
     }
     variance /= ITERATIONS;
     std_deviation = sqrt(variance);
-    printf("    Average execution time %f ms , std = %f ms \n", average_time, std_deviation);
+    printf("    Average execution time %f s , std = %f s \n", average_time, std_deviation);
    } 
   
   

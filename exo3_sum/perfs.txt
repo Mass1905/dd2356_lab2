@@ -1,54 +1,54 @@
 Testing serial code 
-	Sum == 5000335.260518, Average execution time 0.032536 ms , std = 0.000137 ms 
+	Sum == 5000335.260518, Average execution time 0.032616 s , std = 0.000211 s 
 --------------------------------- 
-Testing omp_sum  with 16 threads 
-	Sum == 409508.628195, Average execution time 0.043032 ms , std = 0.000638 ms 
+Testing omp_sum  with 32 threads 
+	Sum == 221196.046158, Average execution time 0.068777 s , std = 0.000474 s 
 --------------------------------- 
 Testing omp_critical_sum  with 1 threads 
-	Sum == 5000335.260518, Average execution time 0.094517 ms , std = 0.000082 ms 
+	Sum == 5000335.260518, Average execution time 0.095098 s , std = 0.000085 s 
 --------------------------------- 
 Testing omp_critical_sum  with 2 threads 
-	Sum == 5000335.260517, Average execution time 0.192176 ms , std = 0.004772 ms 
+	Sum == 5000335.260517, Average execution time 0.197669 s , std = 0.002606 s 
 --------------------------------- 
 Testing omp_critical_sum  with 4 threads 
-	Sum == 5000335.260518, Average execution time 0.291509 ms , std = 0.003114 ms 
+	Sum == 5000335.260518, Average execution time 0.285782 s , std = 0.001381 s 
 --------------------------------- 
 Testing omp_critical_sum  with 8 threads 
-	Sum == 5000335.260518, Average execution time 0.408983 ms , std = 0.001542 ms 
+	Sum == 5000335.260518, Average execution time 0.410753 s , std = 0.002245 s 
 --------------------------------- 
 Testing omp_critical_sum  with 16 threads 
-	Sum == 5000335.260518, Average execution time 0.563605 ms , std = 0.004507 ms 
+	Sum == 5000335.260518, Average execution time 0.574914 s , std = 0.001899 s 
 --------------------------------- 
 Testing omp_critical_sum  with 20 threads 
-	Sum == 5000335.260519, Average execution time 0.620952 ms , std = 0.001860 ms 
+	Sum == 5000335.260518, Average execution time 0.598935 s , std = 0.001447 s 
 --------------------------------- 
 Testing omp_critical_sum  with 24 threads 
-	Sum == 5000335.260518, Average execution time 0.678755 ms , std = 0.002172 ms 
+	Sum == 5000335.260518, Average execution time 0.688273 s , std = 0.001953 s 
 --------------------------------- 
 Testing omp_critical_sum  with 28 threads 
-	Sum == 5000335.260518, Average execution time 0.736547 ms , std = 0.002171 ms 
+	Sum == 5000335.260518, Average execution time 0.738697 s , std = 0.002693 s 
 --------------------------------- 
 Testing omp_local_sum  with 1 threads 
-	Sum == 5000335.260518, Average execution time 0.032627 ms , std = 0.000016 ms 
+	Sum == 5000335.260518, Average execution time 0.032724 s , std = 0.000091 s 
 --------------------------------- 
 Testing omp_local_sum  with 32 threads 
-	Sum == 5000335.260518, Average execution time 0.013611 ms , std = 0.000124 ms 
+	Sum == 5000335.260518, Average execution time 0.013662 s , std = 0.000070 s 
 --------------------------------- 
 Testing omp_local_sum  with 64 threads 
-	Sum == 5000335.260518, Average execution time 0.006795 ms , std = 0.000356 ms 
+	Sum == 5000335.260518, Average execution time 0.006626 s , std = 0.000341 s 
 --------------------------------- 
 Testing omp_local_sum  with 128 threads 
-	Sum == 5000335.260518, Average execution time 0.003620 ms , std = 0.000993 ms 
+	Sum == 5000335.260518, Average execution time 0.003516 s , std = 0.000670 s 
 --------------------------------- 
 Testing opt_local_sum  with 1 threads 
-	Sum == 5000335.260518, Average execution time 0.033491 ms , std = 0.000388 ms 
+	Sum == 5000335.260518, Average execution time 0.033694 s , std = 0.000273 s 
 --------------------------------- 
 Testing opt_local_sum  with 32 threads 
-	Sum == 5000335.260518, Average execution time 0.001125 ms , std = 0.000304 ms 
+	Sum == 5000335.260518, Average execution time 0.001094 s , std = 0.000155 s 
 --------------------------------- 
 Testing opt_local_sum  with 64 threads 
-	Sum == 5000335.260518, Average execution time 0.000721 ms , std = 0.000124 ms 
+	Sum == 5000335.260518, Average execution time 0.000724 s , std = 0.000155 s 
 --------------------------------- 
 Testing opt_local_sum  with 128 threads 
-	Sum == 5000335.260518, Average execution time 0.000716 ms , std = 0.000133 ms 
+	Sum == 5000335.260518, Average execution time 0.000591 s , std = 0.000128 s 
 --------------------------------- 

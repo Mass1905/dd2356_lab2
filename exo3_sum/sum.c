@@ -141,7 +141,7 @@ void mesure_performance(double (*measured_function)(double *x, size_t size), siz
     }
     variance /= iterations;
     std_deviation = sqrt(variance);
-    printf("	Sum == %f, Average execution time %f ms , std = %f ms \n", res, average_time, std_deviation);
+    printf("	Sum == %f, Average execution time %f s , std = %f s \n", res, average_time, std_deviation);
 }
 
  int main(int argc, char const *argv[])
@@ -160,8 +160,8 @@ void mesure_performance(double (*measured_function)(double *x, size_t size), siz
  	printf("--------------------------------- \n");
 
 
- 	printf("Testing omp_sum  with 16 threads \n");
- 	mesure_performance(&omp_sum, 16);
+ 	printf("Testing omp_sum  with 32 threads \n");
+ 	mesure_performance(&omp_sum, 32);
  	printf("--------------------------------- \n");
 
  	int threads_numbers_omp_critical[] = {1, 2, 4, 8, 16, 20, 24, 28};
